@@ -14,10 +14,14 @@ function whileLoop(n)
   return "done";
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+}
+
 function doWhileLoop(arr)
 {
   do{
     arr.length -= 1;
-  }while (true || arr.length == 0);
+  }while (maybeTrue() || arr.length == 0);
   return arr;
 }
