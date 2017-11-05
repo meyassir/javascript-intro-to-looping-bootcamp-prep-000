@@ -17,7 +17,7 @@ function whileLoop(n)
 function doWhileLoop(arr)
 {
   do{
-    arr.length--;
+    arr.length -= 1;
   }while (true || arr.length == 0);
   return arr;
 }
