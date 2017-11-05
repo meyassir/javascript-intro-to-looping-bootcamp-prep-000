@@ -19,4 +19,5 @@ function doWhileLoop(arr)
   do{
     arr.length--;
   }while (true || arr.length == 0);
+  return arr;
 }
