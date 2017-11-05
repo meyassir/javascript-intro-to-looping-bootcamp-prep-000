@@ -13,3 +13,12 @@ function whileLoop(n)
   }
   return "done";
 }
+
+function doWhileLoop(arr)
+{
+  do{
+    arr.length--;
+  }while (maybeTrue() || arr.length == 0) {
+    
+  }
+}
